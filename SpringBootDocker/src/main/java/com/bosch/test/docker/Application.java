@@ -14,6 +14,7 @@ public class Application {
 
 	@RequestMapping(value="/")
 	public String getValue() {
+		System.out.println("Inisde The Dokcer Getr Mapping");
 		return "welcome to docker";
 	}
 }
